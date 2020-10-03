@@ -21,8 +21,11 @@ class Vocabluary {
     this.cards.push(newCard);
   }
   deleteCard(mainWord) {
-      if (!this.isCardExist(mainWord)) throw new Error("this card doen't exist")
-      this.cards.splice(this._findCardIndex(mainWord), this._findCardIndex(mainWord))
+    if (!this.isCardExist(mainWord)) throw new Error("this card doen't exist");
+    this.cards.splice(
+      this._findCardIndex(mainWord),
+      this._findCardIndex(mainWord)
+    );
   }
   changeCategory(mainWord, newCategory) {
     if (this._findCardIndex(mainWord) === -1)
@@ -42,7 +45,7 @@ class Vocabluary {
 }
 
 //example
-let card1 = {
+const card1 = {
   mainWordForm: "noun",
   wordForms: {
     noun: "advance",
@@ -56,7 +59,7 @@ let card1 = {
 
 let initVocabluary = new Vocabluary([]);
 
-//added 'advance', 'suppose'
+//test: added 'advance', 'suppose', 'beatiful'; deleted 'suppose'
 {
   initVocabluary.addCard(
     "noun",
@@ -85,7 +88,15 @@ let initVocabluary = new Vocabluary([]);
     "familiar"
   );
   initVocabluary.changeCategory("beautiful", "well-known");
-  initVocabluary.deleteCard('suppose')
+  initVocabluary.deleteCard("suppose");
+  initVocabluary.addCard(
+    "verb",
+    undefined,
+    "suppose",
+    undefined,
+    "say",
+    "familiar"
+  );
 }
 
 console.log(initVocabluary);
