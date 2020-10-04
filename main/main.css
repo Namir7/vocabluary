@@ -13,6 +13,9 @@ body {
     rgba(181, 21, 79, 0) 75.8%,
     rgba(231, 58, 120, 0.125601) 87.93%
   );
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 100vw;
 }
 
 .wrapper {
