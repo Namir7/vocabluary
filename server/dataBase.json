@@ -6,6 +6,18 @@
       "verb": "conclude",
       "adjective": "concluding"
     },
+    "sentence":"they conclude their study with these words",
+    "syn": ["settle", "end"],
+    "category": "familiar"
+  },
+  {
+    "mainWordForm": "noun",
+    "wordForms": {
+      "noun": "decision",
+      "verb": "decide",
+      "adjective": "deciding"
+    },
+    "sentence":"I'll make the decision on my own",
     "syn": ["settle", "end"],
     "category": "familiar"
   },
@@ -16,36 +28,7 @@
       "verb": "conclude",
       "adjective": "concluding"
     },
-    "syn": ["settle", "end"],
-    "category": "familiar"
-  },
-  {
-    "mainWordForm": "verb",
-    "wordForms": {
-      "noun": "conclusion",
-      "verb": "conclude",
-      "adjective": "concluding"
-    },
-    "syn": ["settle", "end"],
-    "category": "familiar"
-  },
-  {
-    "mainWordForm": "verb",
-    "wordForms": {
-      "noun": "conclusion",
-      "verb": "conclude",
-      "adjective": "concluding"
-    },
-    "syn": ["settle", "end"],
-    "category": "familiar"
-  },
-  {
-    "mainWordForm": "verb",
-    "wordForms": {
-      "noun": "conclusion",
-      "verb": "conclude",
-      "adjective": "concluding"
-    },
+    "sentence":"they conclude their study with these words",
     "syn": ["settle", "end"],
     "category": "familiar"
   }

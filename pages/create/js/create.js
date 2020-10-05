@@ -43,6 +43,8 @@ class Vocabluary {
     );
   }
 }
+//!!!need to add sentence propertt
+// "sentence":"they conclude their study with these words",
 
 //example
 const card1 = {
