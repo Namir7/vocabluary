@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+button {
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
 body {
   background: linear-gradient(
     180deg,
@@ -19,7 +27,7 @@ body {
 
 .container-content {
   width: 1335px;
-  padding: 135px 70px 0 390px;
+  padding: 135px 70px 200px 390px;
   margin: 0 auto;
 }
 
@@ -43,7 +51,6 @@ body {
   width: 400px;
   height: 550px;
   padding-top: 75px;
-  background: rgba(100, 147, 201, 0.5);
   border: 3px solid rgba(170, 199, 225, 1);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 72px;
@@ -99,8 +106,8 @@ body {
     color: rgba(170, 199, 225, 0.8);
     font-size: 10px;
     line-height: 12px;
-    top:-20px;
-    left:15px;
+    top: -20px;
+    left: 15px;
   }
   &__noun-wrapper::before {
     content: "noun";
@@ -123,16 +130,14 @@ body {
     padding-left: 15px;
     padding-top: 55px;
     position: relative;
-    &::after {
-      content: "";
-      position: absolute;
-      display: block;
-      height: 1px;
-      width: 270px;
-      background-color: #aac7e1;
-      bottom: 0;
-      left: 55px;
-    }
+  }
+  &__sentence-line {
+    position: absolute;
+    display: block;
+    height: 1px;
+    width: 270px;
+    bottom: 0;
+    left: 55px;
   }
   &__main-word {
     color: rgba(19, 5, 43, 0.7);
@@ -152,16 +157,14 @@ body {
     margin-bottom: 35px;
     padding-left: 59px;
     padding-top: 32px;
-    &::after {
-      content: "";
-      position: absolute;
-      display: block;
-      height: 1px;
-      width: 270px;
-      background-color: #aac7e1;
-      bottom: 0;
-      left: 55px;
-    }
+  }
+  &__synonym-line {
+    position: absolute;
+  display: block;
+  height: 1px;
+  width: 270px;
+  bottom: 0;
+  left: 55px;
   }
   &__synonym {
     margin-bottom: 15px;
@@ -200,6 +203,9 @@ body {
   font-family: Lato, sans-serif;
   display: block;
   margin: 0 auto;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 //category column
@@ -217,6 +223,9 @@ body {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     position: relative;
     margin-bottom: 50px;
+    &:hover {
+      transform: scale(1.1);
+    }
     &--well-known {
       background-color: rgba(172, 254, 215, 0.5);
       border: 3px solid rgba(165, 241, 223, 1);
@@ -254,4 +263,23 @@ body {
       color: rgba(249, 248, 248, 1);
     }
   }
+}
+
+//form elements
+.card__input-word {
+  border: none;
+  width: 110px;
+}
+
+.card__input-sentence {
+  border: none;
+}
+
+.card__input-synonym {
+  border: none;
+  width: 90px;
+}
+
+.category__radio-btn {
+  display: none;
 }

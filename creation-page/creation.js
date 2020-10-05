@@ -99,6 +99,33 @@ let initVocabluary = new Vocabluary([]);
   );
 }
 
-console.log(initVocabluary);
+// console.log(initVocabluary);
 
 //? take a  Set clsss behaviour
+
+// 1) then pressed done btn rewrite vocabluary instance 
+// 2) 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
