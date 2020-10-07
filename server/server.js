@@ -4,7 +4,7 @@ let fs = require("fs");
 //create main files
 let html = fs
   .readFileSync(__dirname + "\\..\\pages\\study\\study.html")
-  .toString("utf8");
+//   .toString("utf8");
 
 let css = fs
   .readFileSync(__dirname + "\\..\\pages\\study\\study.css")
@@ -29,6 +29,9 @@ const server = http.createServer((req, res) => {
   switch (req.url) {
     case "/study":
       res.writeHead(200, { "Content-type": "text/html" });
+      //change html file start
+      console.log(html)
+      //change html file end
       res.end(html);
       break;
     case "/study.css":
