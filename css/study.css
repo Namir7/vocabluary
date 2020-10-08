@@ -72,7 +72,7 @@ body {
 }
 
 .card__word-form--active {
-  border-bottom: 1px solid #ecb04c;
+  border-bottom: 1.5px solid #ecb04c;
 }
 
 .card__noun, .card__verb, .card__adjective {

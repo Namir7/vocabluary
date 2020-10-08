@@ -1,35 +1,40 @@
-[
-  {
-    "mainWordForm": "verb",
-    "wordForms": {
-      "noun": "conclusion",
-      "verb": "conclude",
-      "adjective": "concluding"
+{
+  "cards": [
+    {
+      "mainWordForm": "verb",
+      "wordForms": {
+        "noun": "conclusion",
+        "verb": "conclude",
+        "adjective": "concluding"
+      },
+      "sentence": "They conclude their study with these words",
+      "syn": ["settle", "end"],
+      "category": "familiar",
+      "img": "conclude.jpg"
     },
-    "sentence":"they conclude their study with these words",
-    "syn": ["settle", "end"],
-    "category": "familiar"
-  },
-  {
-    "mainWordForm": "noun",
-    "wordForms": {
-      "noun": "decision",
-      "verb": "decide",
-      "adjective": "deciding"
+    {
+      "mainWordForm": "noun",
+      "wordForms": {
+        "noun": "decision",
+        "verb": "decide",
+        "adjective": "deciding"
+      },
+      "sentence": "I'll make the decision on my own",
+      "syn": ["settle", "end"],
+      "category": "known",
+      "img": "decision.jpg"
     },
-    "sentence":"I'll make the decision on my own",
-    "syn": ["settle", "end"],
-    "category": "familiar"
-  },
-  {
-    "mainWordForm": "verb",
-    "wordForms": {
-      "noun": "conclusion",
-      "verb": "conclude",
-      "adjective": "concluding"
-    },
-    "sentence":"they conclude their study with these words",
-    "syn": ["settle", "end"],
-    "category": "familiar"
-  }
-]
+    {
+      "mainWordForm": "verb",
+      "wordForms": {
+        "noun": "conclusion",
+        "verb": "conclude",
+        "adjective": "concluding"
+      },
+      "sentence": "They conclude their study with these words",
+      "syn": ["settle", "end"],
+      "category": "unknown",
+      "img": "conclude.jpg"
+    }
+  ]
+}

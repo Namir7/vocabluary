@@ -10,8 +10,8 @@
 
 <body>
     <div class="container-content">
-        <a class="back-btn-link" href="../main/main.html">
-            <img class="back-btn-image" src="../../assets/img/back-btn(blue).svg" alt="back">
+        <a class="back-btn-link" href="main.html">
+            <img class="back-btn-image" src="assets/img/back-btn(blue).svg" alt="back">
         </a>
         <div class="card" style="background: rgba(100, 147, 201, 0.5);">
             <header class="card__word-forms">
@@ -20,7 +20,7 @@
                         <!-- conclusion -->
                     </p>
                 </div>
-                <div class="card__verb-wrapper" >
+                <div class="card__verb-wrapper">
                     <p class="card__verb" id="verb">
                         <!-- card__word-form--active -->
                         <!-- conclude -->
@@ -32,13 +32,13 @@
                     </p>
                 </div>
             </header>
-                <button class="card__show-btn" type="button" style="display: block;">
-                    Show
-                </button>
+            <button class="card__show-btn" type="button" style="display: block;">
+                Show
+            </button>
             <div class="card__hint" style="display: none;">
                 <div class="card__sentence-wrapper">
-                    <p class="card__sentence">
-                        So what can we <span class="card__main-word">conclude</span> from this debate?
+                    <p class="card__sentence" id="sentence">
+                        <!-- So what can we <span class="card__main-word">conclude</span> from this debate? -->
                     </p>
                     <div class="card__sentence-line" style="background-color: #aac7e1;">
                     </div>
@@ -57,16 +57,19 @@
                     <div class="card__synonyms-line" style="background-color: #aac7e1;">
                     </div>
                 </div>
-                <img class="card__image" src="../../assets/img/dragon-k-wallpaper.jpg" alt="image" width="250"
-                    height="147px">
+                <img class="card__image" src="assets/img/dragon-k-wallpaper.jpg" alt="image" width="250" height="147px">
             </div>
         </div>
         <button class="next-buttom" type="button">
             Next
         </button>
     </div>
-    <script src="js/showBtn.js"></script>
     <script src="js/study.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/showBtn.js"></script>
+    <!-- <script type="module" src="js/showBtn.js"></script>
+    <script type="module" src="js/study.js"></script>
+    <script type="module" src="js/card.js"></script> -->
 </body>
 
 </html>

@@ -38,6 +38,3 @@ categoryNeedToLearn.addEventListener("click", () => {
             line2.setAttribute('style', 'background-color: rgba(105, 53, 53, 1)');
 });
 
-console.log(card.getAttribute("style"));
-
-
