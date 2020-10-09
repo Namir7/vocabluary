@@ -13,63 +13,60 @@
         <a class="back-btn-link" href="main.html">
             <img class="back-btn-image" src="assets/img/back-btn(blue).svg" alt="back">
         </a>
-        <div class="card" style="background: rgba(100, 147, 201, 0.5);">
-            <header class="card__word-forms">
+        <div class="card" style="background: rgba(100, 147, 201, 0.5);" id="card">
+            <header class="card__word-forms" id="header">
                 <div class="card__noun-wrapper">
+                    <p class="card__noun-pretitle" id="noun-pretitle">
+                        noun
+                    </p>
                     <p class="card__noun" id="noun">
-                        <!-- conclusion -->
                     </p>
                 </div>
-                <div class="card__verb-wrapper">
+                <div class="card__verb-wrapper" id='verb-wrapper'>
+                    <p class="card__verb-pretitle" id="verb-pretitle">
+                        verb
+                    </p>
                     <p class="card__verb" id="verb">
-                        <!-- card__word-form--active -->
-                        <!-- conclude -->
                     </p>
                 </div>
                 <div class="card__adjective-wrapper">
+                    <p class="card__adjective-pretitle" id="adjective-pretitle">
+                        adj.
+                    </p>
                     <p class="card__adjective" id="adjective">
-                        <!-- concluding -->
                     </p>
                 </div>
             </header>
-            <button class="card__show-btn" type="button" style="display: block;">
+            <button class="card__show-btn" type="button">
                 Show
             </button>
-            <div class="card__hint" style="display: none;">
+            <div class="card__hint hidden">
                 <div class="card__sentence-wrapper">
                     <p class="card__sentence" id="sentence">
-                        <!-- So what can we <span class="card__main-word">conclude</span> from this debate? -->
                     </p>
-                    <div class="card__sentence-line" style="background-color: #aac7e1;">
+                    <div class="card__sentence-line" style="background-color: #aac7e1;" id="first-line">
                     </div>
                 </div>
-                <div class="card__synonyms-wrapper">
+                <div class="card__synonyms-wrapper" id="synonyms">
                     <p class="card__Syn">
                         Syn:
                     </p>
-                    <!-- max-5 synonyms -->
-                    <p class="card__synonym">
-                        end
-                    </p>
-                    <p class="card__synonym">
-                        extract
-                    </p>
-                    <div class="card__synonyms-line" style="background-color: #aac7e1;">
+                    <div class="card__synonyms-line" style="background-color: #aac7e1;" id="second-line">
                     </div>
                 </div>
-                <img class="card__image" src="assets/img/dragon-k-wallpaper.jpg" alt="image" width="250" height="147px">
+                <img class="card__image" alt="image" width="250" height="147px" id="image">
             </div>
         </div>
-        <button class="next-buttom" type="button">
+        <button class="next-buttom" type="button" id="next-btn">
             Next
         </button>
+        <p class="finish hidden" id="finish">
+            All cards completed
+        </p>
     </div>
+    <script src="js/showBtn.js"></script>
     <script src="js/study.js"></script>
     <script src="js/card.js"></script>
-    <script src="js/showBtn.js"></script>
-    <!-- <script type="module" src="js/showBtn.js"></script>
-    <script type="module" src="js/study.js"></script>
-    <script type="module" src="js/card.js"></script> -->
 </body>
 
 </html>
