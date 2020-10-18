@@ -15,7 +15,11 @@ input {
 }
 
 body {
-  background: linear-gradient(244.37deg, rgba(26, 110, 116, 0.7) 0%, rgba(68, 215, 83, 0.486546) 98.34%);
+  background: linear-gradient(
+    244.37deg,
+    rgba(26, 110, 116, 0.7) 0%,
+    rgba(68, 215, 83, 0.486546) 98.34%
+  );
   background-blend-mode: darken;
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,12 +80,16 @@ body {
   border-bottom: 1px solid #ecb04c;
 }
 
-.card__noun, .card__verb, .card__adjective {
+.card__noun,
+.card__verb,
+.card__adjective {
   width: fit-content;
   margin: 0 auto;
 }
 
-.card__verb-pretitle, .card__noun-pretitle, .card__adjective-pretitle {
+.card__verb-pretitle,
+.card__noun-pretitle,
+.card__adjective-pretitle {
   position: absolute;
   display: block;
   color: rgba(170, 199, 225, 0.8);
@@ -91,7 +99,9 @@ body {
   left: 15px;
 }
 
-.card__noun-wrapper, .card__verb-wrapper, .card__adjective-wrapper {
+.card__noun-wrapper,
+.card__verb-wrapper,
+.card__adjective-wrapper {
   width: 133px;
   padding-top: 13px;
   position: relative;
@@ -120,6 +130,10 @@ body {
   color: #0c0d0c;
   border: none;
   border-radius: 50%;
+}
+
+.card__show-btn:hover {
+  opacity: 0.7;
 }
 
 .card__sentence-wrapper {
